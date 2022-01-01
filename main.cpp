@@ -4,6 +4,7 @@
 using namespace std;
 
 const unsigned int size = 26;
+
 struct node {
     struct node* pointer[size];
     bool star;
